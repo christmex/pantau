@@ -22,7 +22,7 @@ export function HeroSection() {
 
       <div className="hero-art">
         <Image
-          src="/hero-intoleransi.webp"
+          src="/hero-kasus-intoleransi.webp"
           alt=""
           fill
           sizes="(max-width: 680px) 100vw, 560px"

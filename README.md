@@ -2,6 +2,8 @@
 
 Basis data terbuka kasus intoleransi beragama di Indonesia, 2025–2026.
 
+**https://pantautoleransi.vercel.app**
+
 Tiap kasus dicatat dengan lokasi, tanggal, pihak yang melakukan, pihak yang
 terdampak, kronologi, dan seluruh tautan pemberitaan yang dipakai untuk
 menyusunnya. Situs ini hanya menampilkan data yang sudah terverifikasi.
