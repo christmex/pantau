@@ -12,7 +12,7 @@ export function SiteHeader() {
         <a className="brand" href="#top">
           <span className="brand-mark" aria-hidden="true" />
           <strong>Pantau</strong>
-          <span>Intoleransi</span>
+          <span>Toleransi</span>
         </a>
 
         <nav className="site-nav">

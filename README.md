@@ -1,4 +1,4 @@
-# Pantau Intoleransi
+# Pantau Toleransi
 
 Basis data terbuka kasus intoleransi beragama di Indonesia, 2025–2026.
 

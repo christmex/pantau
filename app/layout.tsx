@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Pantau · Intoleransi Beragama di Indonesia 2025–2026",
+  title: "Pantau Toleransi · Kasus intoleransi beragama di Indonesia",
   description:
     "Catatan kasus intoleransi beragama di Indonesia sepanjang 2025–2026, lengkap dengan kronologi, lokasi, dan tautan sumber pemberitaan.",
 };

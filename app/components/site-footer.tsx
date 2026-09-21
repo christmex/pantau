@@ -18,7 +18,7 @@ export function SiteFooter({ totalCases, updatedAt }: SiteFooterProps) {
           <div>
             <span className="footer-brand">
               <span className="brand-mark" aria-hidden="true" />
-              Pantau Intoleransi
+              Pantau Toleransi
             </span>
             <p className="footer-intro">
               Basis data terbuka kasus intoleransi beragama di Indonesia.
@@ -36,7 +36,7 @@ export function SiteFooter({ totalCases, updatedAt }: SiteFooterProps) {
         </div>
 
         <div className="footer-bottom">
-          <span>© 2026 Pantau Intoleransi</span>
+          <span>© 2026 Pantau Toleransi</span>
           <span>
             {totalCases} kasus · diperbarui {formatLongDate(updatedAt)}
           </span>
