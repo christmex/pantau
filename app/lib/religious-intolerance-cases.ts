@@ -107,9 +107,3 @@ export function countSourceLinks(): number {
 export function getDataUpdatedAt(): string {
   return casesFile.meta.updatedAt;
 }
-
-export function getImageOutlets(): readonly string[] {
-  return [...new Set(cases.map((incident) => incident.image.sourceOutlet))].sort(
-    (first, second) => first.localeCompare(second),
-  );
-}

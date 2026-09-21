@@ -3,7 +3,6 @@ import { formatLongDate } from "@/app/lib/format-date";
 type SiteFooterProps = {
   totalCases: number;
   updatedAt: string;
-  imageOutlets: readonly string[];
 };
 
 const FOOTER_LINKS = [
@@ -11,11 +10,7 @@ const FOOTER_LINKS = [
   { href: "#sebaran", label: "Sebaran provinsi" },
 ] as const;
 
-export function SiteFooter({
-  totalCases,
-  updatedAt,
-  imageOutlets,
-}: SiteFooterProps) {
+export function SiteFooter({ totalCases, updatedAt }: SiteFooterProps) {
   return (
     <footer className="site-footer">
       <div className="site-footer-inner">
@@ -27,10 +22,6 @@ export function SiteFooter({
             </span>
             <p className="footer-intro">
               Basis data terbuka kasus intoleransi beragama di Indonesia.
-            </p>
-            <p className="footer-credit">
-              Foto diambil dari berita yang jadi rujukan tiap kasus. Terima
-              kasih untuk {imageOutlets.join(", ")}.
             </p>
           </div>
 

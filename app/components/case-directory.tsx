@@ -227,6 +227,16 @@ export function CaseDirectory({
           {visibleCases.map((incident) => (
             <li key={incident.id}>
               <article className="case-card">
+                <button
+                  type="button"
+                  className="case-card-overlay"
+                  onClick={() => setOpenedCaseId(incident.id)}
+                >
+                  <span className="screen-reader-only">
+                    Buka detail: {incident.title}
+                  </span>
+                </button>
+
                 <div className="case-media">
                   <Image
                     src={incident.image.path}
@@ -249,15 +259,7 @@ export function CaseDirectory({
                     </span>
                   </div>
 
-                  <h3>
-                    <button
-                      type="button"
-                      className="case-card-open"
-                      onClick={() => setOpenedCaseId(incident.id)}
-                    >
-                      {incident.title}
-                    </button>
-                  </h3>
+                  <h3>{incident.title}</h3>
 
                   <p className="case-card-place">
                     {incident.city}, {incident.province}

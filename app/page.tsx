@@ -8,7 +8,6 @@ import {
   getCases,
   getCoveredYears,
   getDataUpdatedAt,
-  getImageOutlets,
   getIncidentTypeCounts,
   getProvinceCounts,
 } from "@/app/lib/religious-intolerance-cases";
@@ -37,11 +36,7 @@ export default function Home() {
           totalCases={cases.length}
         />
       </main>
-      <SiteFooter
-        totalCases={cases.length}
-        updatedAt={updatedAt}
-        imageOutlets={getImageOutlets()}
-      />
+      <SiteFooter totalCases={cases.length} updatedAt={updatedAt} />
       <BackToTop />
     </>
   );
